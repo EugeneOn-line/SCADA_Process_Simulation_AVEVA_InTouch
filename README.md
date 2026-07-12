@@ -2,140 +2,92 @@
 
 ## Project Overview
 
-This repository presents an industrial SCADA application developed in AVEVA InTouch HMI for monitoring and controlling a simulated production process.
-
-The application simulates liquid storage, mixing, conveyor transport and warehouse management. It also includes user authentication, alarm handling and real-time process monitoring.
-
-The project was developed as part of the Industrial Visualization and Process Monitoring Systems course.
+This project presents a SCADA/HMI visualization of a three-tank liquid mixing and packaging process developed in AVEVA InTouch.The application simulates liquid storage, mixing, product filling, conveyor operation, and warehouse management while following the principles of Situational Awareness.It includes process monitoring, manual control of technological equipment, alarm management, and role-based user authentication to ensure secure operation. 
+The project was created as part of an industrial process visualization and monitoring laboratory.
 
 ## Project Objectives
 
-The main objective of this project was to design and implement a functional SCADA application capable of monitoring and controlling a simulated industrial process.
-
-The system was designed to provide an intuitive operator interface, process visualization, alarm handling and user management while following the principles of industrial HMI design.
+- Design and implement an industrial SCADA/HMI application in AVEVA InTouch.
+- Monitor and control a three-tank liquid mixing process.
+- Simulate conveyor-based product transportation and filling.
+- Implement warehouse management for finished products.
+- Configure alarm handling and process monitoring.
+- Apply role-based user authentication and access control.
+- Follow Situational Awareness principles to improve operator usability.
 
 ## Main Features
 
-- Three process tanks
-- Inlet and outlet valve control
-- Real-time liquid level monitoring
-- Liquid mixing and concentration calculation
-- Conveyor belt simulation
-- Automatic product filling
-- Warehouse management
-- Product classification
-- User authentication with role-based access
-- Alarm system
-- Multi-window HMI interface
-
-## System Components
-
-The application consists of the following modules:
-
-- Tank A
-- Tank B
-- Mixing Tank C
-- Conveyor Belt
-- Product Filling Station
-- Warehouse
-- Alarm System
-- User Authentication
+- Multi-level SCADA/HMI interface designed according to Situational Awareness principles.
+- Real-time monitoring of tanks, valves, and process parameters.
+- Manual control of liquid flow and mixing process.
+- Conveyor belt simulation with automatic product filling.
+- Warehouse management with order preparation and inventory control.
+- Role-based authentication and access control.
+- Process alarm configuration and monitoring.
+- Product classification based on liquid concentration.
   
 ## Technologies
 
-- AVEVA InTouch HMI
-- AVEVA System Platform
-- SCADA
-- HMI
+- AVEVA InTouch
+- SCADA / HMI
+- ArchestrA Graphics
+- InTouch Scripting
 - Industrial Automation
-  
-## System Architecture
-
-The simulated production process follows the workflow presented below.
-
-```
-Tank A ──┐
-         ├──► Mixing Tank C ───► Filling Station ───► Conveyor Belt ───► Warehouse
-Tank B ──┘
-```
-
-The application continuously monitors the process, calculates the concentration of the mixture, controls the filling process and classifies finished products.
-
-## Process Workflow
-
-1. Raw materials are stored in Tank A and Tank B.
-2. Liquids are transferred to Mixing Tank C.
-3. The system calculates the mixture concentration.
-4. The finished product is transferred to the filling station.
-5. Filled products are transported by the conveyor belt.
-6. Products are classified and stored in the warehouse.
+- Situational Awareness
+- Alarm Management
+- User Authentication and Access Control
    
 ## Screenshots
 
 ### Main Dashboard
 
-![Main Dashboard](images/dashboard.png)
+![Dashboard](images/Dashboard.png)
 
 ---
 
 ### Process Window
 
-![Process Window](images/process.png)
+![Process Window](images/Process-Overview.png)
 
 ---
 
 ### Warehouse
 
-![Warehouse](images/warehouse.png)
+![Warehouse](images/Storage-Panel.png)
 
 ---
 
 ### Tank A
 
-![Tank A](images/tankA.png)
+![Tank A](images/TankA-Overview.png)
 
 ---
 
-### Tank B
-
-![Tank B](images/tankB.png)
-
----
 
 ### Tank C
 
-![Tank C](images/tankC.png)
+![Tank C](images/TankC-Overview.png)
 
 ---
 
-### Login Window
+### Authorization Window
 
-![Login](images/login.png)
+![Login](images/Authorization-Window.png)
 
 
 ## Demonstration
 
 A demonstration video will be added soon.
 
-## Repository Structure
-
-```
-docs/
-images/
-video/
-README.md
-```
-
 ## Future Improvements
 
 Possible future extensions of the project include:
 
-- PLC integration
-- OPC UA communication
-- SQL database integration
-- Historical data logging
-- Production reports
-- Energy consumption monitoring
+- Integration with a PLC controller.
+- Database support for production history.
+- MES/ERP integration.
+- Advanced process trends and reporting.
+- Automatic process control algorithms.
   
 ## Documentation
 
