@@ -77,7 +77,7 @@ The project was created as part of an industrial process visualization and monit
 
 ## Demonstration
 
-A demonstration video will be added soon.
+!(videos/INTOUCH-Project1-Video.mp4)
 
 ## Future Improvements
 
