@@ -77,7 +77,7 @@ The project was created as part of an industrial process visualization and monit
 
 ## Demonstration
 
-![Demostration](https://youtu.be/psxoKjFqO6k)
+https://youtu.be/psxoKjFqO6k
 
 ## Future Improvements
 
