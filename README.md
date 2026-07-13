@@ -95,6 +95,8 @@ The project documentation contains a detailed description of the application, im
 
 The complete project report is available in the `docs` directory.
 
+![Documentation](docs/SCADA_Project_Documentation.pdf)
+
 ## Skills Demonstrated
 
 This project demonstrates practical knowledge of:
