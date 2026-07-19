@@ -5,16 +5,6 @@
 This project presents a SCADA/HMI visualization of a three-tank liquid mixing and packaging process developed in AVEVA InTouch.The application simulates liquid storage, mixing, product filling, conveyor operation, and warehouse management while following the principles of Situational Awareness.It includes process monitoring, manual control of technological equipment, alarm management, and role-based user authentication to ensure secure operation. 
 The project was created as part of an industrial process visualization and monitoring laboratory.
 
-## Project Objectives
-
-- Design and implement an industrial SCADA/HMI application in AVEVA InTouch.
-- Monitor and control a three-tank liquid mixing process.
-- Simulate conveyor-based product transportation and filling.
-- Implement warehouse management for finished products.
-- Configure alarm handling and process monitoring.
-- Apply role-based user authentication and access control.
-- Follow Situational Awareness principles to improve operator usability.
-
 ## Main Features
 
 - Multi-level SCADA/HMI interface designed according to Situational Awareness principles.
@@ -26,7 +16,7 @@ The project was created as part of an industrial process visualization and monit
 - Process alarm configuration and monitoring.
 - Product classification based on liquid concentration.
   
-## Technologies
+## Tech Stack
 
 - AVEVA InTouch
 - SCADA / HMI
@@ -77,6 +67,7 @@ The project was created as part of an industrial process visualization and monit
 
 ## Demonstration
 
+A complete demonstration of the application is available on YouTube.
 [Link to YouTube](https://youtu.be/psxoKjFqO6k)
 
 ## Future Improvements
@@ -90,8 +81,6 @@ Possible future extensions of the project include:
 - Automatic process control algorithms.
   
 ## Documentation
-
-The project documentation contains a detailed description of the application, implemented process logic, alarm handling, user management and the overall system functionality.
 
 The complete project report is available in the `docs` directory.
 
@@ -113,7 +102,3 @@ This project demonstrates practical knowledge of:
 ## Author
 
 Yevhenii Barannik
-
-Automation and Robotics
-
-Faculty of Electrical Engineering
